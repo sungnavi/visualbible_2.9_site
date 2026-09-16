@@ -77,12 +77,6 @@ img {
   display: block;
 }
 
-.sidebar nav a img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
 .sidebar nav a:hover img,
 .sidebar nav a:focus img {
   filter: brightness(1.12);
