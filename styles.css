@@ -59,6 +59,8 @@ img {
   background: var(--color-accent);
   border-radius: 8px;
   padding: 16px 12px;
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar__title {
@@ -95,6 +97,7 @@ img {
 }
 
 .sidebar__verse {
+  margin-top: auto;
   background: #fff;
   border-radius: 6px;
   padding: 16px 14px;
