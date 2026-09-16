@@ -192,6 +192,56 @@ main {
   margin-top: 8px;
 }
 
+.page-title {
+  margin-bottom: 16px;
+}
+
+.page-title img {
+  display: block;
+}
+
+main p,
+main ul,
+main ol {
+  max-width: 640px;
+}
+
+main .field-list,
+main .wizard-list {
+  padding-left: 20px;
+  margin: 12px 0 20px;
+}
+
+main .field-list li,
+main .wizard-list li {
+  margin: 6px 0;
+}
+
+main .wizard-list a {
+  font-size: 0.95rem;
+}
+
+.cta {
+  margin: 24px 0;
+}
+
+.button {
+  display: inline-block;
+  background: var(--color-accent);
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+  background: var(--color-accent-dark);
+  color: #fff;
+  text-decoration: none;
+}
+
 footer.site-footer {
   max-width: var(--max-width);
   margin: 24px auto 0;
