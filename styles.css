@@ -74,23 +74,18 @@ img {
 }
 
 .sidebar nav a {
-  display: flex;
-  align-items: center;
-  background: #fff;
-  border-radius: 4px;
-  padding: 6px 10px;
-  transition: background 0.15s ease, transform 0.1s ease;
+  display: block;
 }
 
 .sidebar nav a img {
   width: 100%;
   height: auto;
+  display: block;
 }
 
-.sidebar nav a:hover,
-.sidebar nav a:focus {
-  background: #fff8ef;
-  transform: translateX(2px);
+.sidebar nav a:hover img,
+.sidebar nav a:focus img {
+  filter: brightness(1.12);
 }
 
 .sidebar__verse {
