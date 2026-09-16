@@ -63,20 +63,30 @@ img {
 
 .sidebar__title {
   text-align: center;
-  margin: 0 0 16px;
+  margin: 0 0 20px;
+}
+
+.sidebar__title img {
+  width: 82%;
+  height: auto;
 }
 
 .sidebar nav ul {
   list-style: none;
-  margin: 0 0 20px;
+  margin: 0 0 22px;
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 9px;
 }
 
 .sidebar nav a {
   display: block;
+}
+
+.sidebar nav a img {
+  width: 66%;
+  height: auto;
 }
 
 .sidebar nav a:hover img,
@@ -87,8 +97,9 @@ img {
 .sidebar__verse {
   background: #fff;
   border-radius: 6px;
-  padding: 12px;
-  font-size: 0.8rem;
+  padding: 16px 14px;
+  font-size: 0.88rem;
+  line-height: 1.55;
   color: var(--color-text);
 }
 
